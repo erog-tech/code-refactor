@@ -44,7 +44,7 @@
 
 ## Review
 
-You are required to submit the following for review:
+Here are the requirements:
 
 
 * URL: https://erog-tech.github.io/code-refactor/
