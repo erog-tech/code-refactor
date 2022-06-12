@@ -53,5 +53,5 @@ You are required to submit the following for review:
 
 ---
 ![Alt text](./images/header.png?raw=true "Header")
-![Alt text](./images/footer.png?raw=true "Header")
 ![Alt text](./images/section.png?raw=true "Header")
+![Alt text](./images/footer.png?raw=true "Header")
