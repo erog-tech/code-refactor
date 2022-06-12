@@ -1,12 +1,12 @@
 
 ## Requirements
->
-> * Added repository to Github
->
-> * Repository has a unique name
->
-> * Repository has a README file
->
+
+* Added repository to Github
+
+* Repository has a unique name
+
+* Repository has a README file
+
 
 ### Acceptance Criteria:
 

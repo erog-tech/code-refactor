@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* Body Tag  */
 body {
     background-color: #d9dcd6;
 }
 
+/* This is used for header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,8 +16,6 @@ body {
     color: #ffffff;
     /* position: fixed; */
     width: 100%;
-    
-    
 }
 
 .header h1 {
@@ -28,53 +27,30 @@ body {
     color: #d9dcd6;
 }
 
+/* This is a nav tag */
 nav {
     background-color: #2a607c;
-    /* position: fixed; */
     width: 100%;
-    /* top: 8%; */
     padding-top: 20px;
 }
 nav ul {
-    /* list-style-type: none; */
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
-
-  nav ul li {
+nav li {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+nav ul li {
     float: right;
   }
-  nav ul li {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        /* text-decoration: none; */
-  }
 
-  nav ul li a:hover {
+nav ul li a:hover {
     background-color: rgb(40, 44, 54);
   }
-
-/* .header {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header nav ul  {
-    list-style-type: none;
-    
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-    
-} */
 
 a {
     color: #ffffff;
@@ -85,6 +61,7 @@ p {
     font-size: 16px;
 }
 
+/* This is used to display image */
 .hero {
     height: 800px;
     width: 100%;
@@ -94,51 +71,51 @@ p {
     background-position: center;
 }
 
+/* To display image at left side */
 .float-left {
     float: left;
-    margin-right: 25px;
-    
+    margin-right: 25px;   
 }
+/* To provide padding and hide the overflow */
 .search-engine-optimization div{
     overflow: hidden;
     padding: 10px;
 }
+/* To provide padding and hide the overflow */
 .online-reputation-management div{
     overflow: hidden;
     padding: 10px;
 }
+/* To provide padding and hide the overflow */
 .social-media-marketing div{
     overflow: hidden;
     padding: 10px;
 }
-/* article{
-    display: flex;
-} */
+/* To display image at right side */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
+/* To display items side by side in one block */
 main {
     display: flex;
   }
-
+/* Properties of content class */
 .content {
     flex: 80%;
-    /* width: 75%; */
     display: inline-block;
     margin-left: 20px;
     padding-right: 10px;
 }
 
+/* Properties of benefit class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     flex: 20%;
-    /* width: 20%;
-    height: 90%; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -192,7 +169,7 @@ main {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Properties of Search Engine Optimization Class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -201,7 +178,7 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Properties of online-reputation-management Class */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -211,7 +188,7 @@ main {
     color: #ffffff;
     overflow: hidden;
 }
-
+/* Properties of socail media marketing Class */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -221,14 +198,15 @@ main {
     color: #ffffff;
 }
 
+/* Setting the Max Height of an image*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* Setting the Max Height of an image*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* Setting the Max Height of an image*/
 .social-media-marketing img {
     max-height: 200px;
 }
@@ -248,6 +226,7 @@ main {
     font-size: 36px;
 }
 
+/* Proerties of footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -258,27 +237,3 @@ main {
 .footer h2 {
     font-size: 20px;
 }
-/* .search-engine-optimization p{
-    word-wrap: break-word;
-} */
-
-/* @media screen and (max-width: 768px) {
-    nav
-      {
-      flex-direction: column;
-    }
-
-  } */
-  /* article {
-    display: flex;
-  } */
-/*
-  .div1 {
-    flex: 45%;
-  }
-  .div2 {
-    flex: 45%;
-  }
-  .div3 {
-    flex: 45%;
-  } */
